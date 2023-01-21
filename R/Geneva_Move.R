@@ -1,4 +1,7 @@
 geneva_Move<-function(hours,seconds){
+  if(!require(rJava)){
+    install.packages("rJava")
+    library(rJava)}
 
   seconds<-seconds*1000 #conversion to milliseconds
   hours<-as.numeric(hours)
@@ -29,8 +32,5 @@ geneva_Move<-function(hours,seconds){
 #* as.integer(x)
 
 
-if(!require(rJava)){
-  install.packages("rJava")
-  library(rJava)}
 
 
