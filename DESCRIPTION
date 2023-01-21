@@ -1,11 +1,10 @@
 Package: genevatools
-Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: geneva Tools for machine functionality
+Version: 1.0.23
+Authors@R: 
+   github/illusionsorders
+Description: Control your machine through various functionalities.
+License: Free
 Encoding: UTF-8
-LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
