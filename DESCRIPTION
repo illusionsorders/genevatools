@@ -1,8 +1,7 @@
 Package: genevatools
 Title: geneva Tools for machine functionality
 Version: 1.0.23
-Authors@R: 
-   github/illusionsorders
+Authors@R: github/illusionsorders
 Description: Control your machine through various functionalities.
 License: Free
 Encoding: UTF-8
