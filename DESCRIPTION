@@ -1,9 +1,12 @@
 Package: genevatools
-Title: geneva Tools for machine functionality
+Title: geneva Tools for added machine functionality.
 Version: 1.0.23
-Authors@R: illusionsorders
-Description: Control your machine through various functionalities.
-License: Free
+Authors@R: 
+    person("illusions", "orders", role = c("aut", "cre")
+           )
+Description: What the package does (one paragraph).
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
